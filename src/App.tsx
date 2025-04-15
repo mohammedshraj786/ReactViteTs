@@ -5,6 +5,9 @@ import './App.css';
 
 function App() {
   const [count, setCount] = useState(0);
+  const  [shraj, setShraj] = useState(0);
+  console.log('shraj');
+  
   return (
     <>
       <div>
