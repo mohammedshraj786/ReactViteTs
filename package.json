@@ -10,11 +10,13 @@
     "lint:fix": "eslint --fix . && prettier --write \"**/*.{ts,tsx,json}\"",
     "preview": "vite preview",
     "format": "prettier --write .",
-    "prepare": "husky"
+    "prepare": "husky",
+    "clean": "rm -rf node_modules package-lock.json"
   },
   "dependencies": {
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.5.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
